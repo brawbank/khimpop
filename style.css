@@ -1,0 +1,39 @@
+html {
+   background: #fc00ff;
+  background: -webkit-linear-gradient(to right, #fc00ff, #00dbde);
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.popcat {
+  
+  background: url("https://i.imgur.com/XV3qevh.png");
+  width: 498px;
+  height: 498px;
+}
+
+.popcat--clicked {
+  background-position: -498px;
+}
+
+.popcounter {
+  user-select: none;
+  font-size: 46px;
+  font-family: 'Brush Script MT', cursive;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
